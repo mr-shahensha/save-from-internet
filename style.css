@@ -1,0 +1,84 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+text-transform: capitalize;
+}
+header{
+    display: flex;
+    padding-top: 70px;
+    border-bottom: 1px solid gray;
+}
+h1{
+position: absolute;
+top:10px;
+left: 450px;
+font-size: 40px;
+}
+ul{
+    position: absolute;
+    top:22px;
+    left: 800px;
+    display: flex;
+    list-style: none;
+}
+li{
+    display: block;
+    padding-left: 50px;
+    font-size: 20px;
+}
+li:hover{
+    text-decoration: underline rgb(47, 47, 184);
+}
+.contanierHead{
+   text-align: center;
+   margin-top: 2%;
+   font-size: 40px;
+   color: rgb(80, 77, 77);
+}
+.inputItem{
+    margin-top: 2%;
+    text-align: center;
+}
+input{
+    border: rgb(77, 238, 77) 5px solid;
+    height: 50px;
+    width: 37%;
+    padding-left: 14px;
+    font-size: 15px;
+}
+button{
+    height: 50px;
+    width: 8%;
+    background-color:rgb(77, 238, 77) ;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+button:hover{
+    background:rgb(110, 253, 110) ;
+}
+.containerP{
+    text-align: center;
+    color: rgb(104, 100, 100);
+}
+.containerP span{
+    color: rgba(62, 62, 206, 0.884);
+    text-decoration: underline;
+    padding-top: 1.6px;
+}
+.containerP span:hover{
+    color: orange;
+}
+.contanierH2{
+    color: rgba(79, 79, 216, 0.849);
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-top: 2%;
+}
+.contanierH2:hover{
+    color: orange;
+}
